@@ -1,0 +1,72 @@
+.baner {
+  background-image: url("../assets/images/банер.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 379px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  margin: 10% 10%;
+  padding: 70px 15%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Смещаем содержимое влево */
+  text-align: left;
+}
+
+.baner-text{
+    color: #1A212F;
+    text-align: left;
+}
+  
+.baner-title{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.baner-title1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.baner-description{
+    font-family: 'LatoRegular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.baner-button {
+    margin-top: 25px;
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    color: #1a212f;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    width: 206px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: "LatoRegular", sans-serif;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    gap: 20px;
+}
+  
+.baner-button:hover {
+    transform: scale(1.05);
+}
+  
+.baner-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}

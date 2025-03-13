@@ -1,0 +1,43 @@
+@font-face{
+    font-family: "LatoBold";
+    src: url("../../fonts/Lato-Bold.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "LatoLight";
+    src: url("../../fonts/Lato-Light.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "LatoRegular";
+    src: url("../../fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "LatoItalic";
+    src: url("../../fonts/Lato-Italic.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "LatoMedium";
+    src: url("../../fonts/Lato-Medium.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "LatoSemiBold";
+    src: url("../../fonts/Lato-SemiBold.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "Rubik";
+    src: url("../../Rubik/Rubik.ttf");
+}
+
+@font-face{
+    font-family: "RubikItalik";
+    src: url("../../Rubik/Rubik-Italic.ttf");
+}
+
+body {
+    font-family: "LatoBold", sans-serif;
+}

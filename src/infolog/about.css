@@ -1,0 +1,121 @@
+.main-block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 70px;
+    padding: 0 5%;
+    margin-top: 5%;
+}
+
+.images-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.cats-group {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 70px;
+    height: 112px;
+}
+
+.big-cat-img {
+    object-fit: cover;
+    width: 500px;
+    height: 396px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 5%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.header1 {
+    font-size: 46px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: #1A212F;
+  
+    margin-bottom: 15px;
+}
+
+
+.dimensions, .space, .equipment-item {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1A212F;
+}
+
+.equipment-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.equipment-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;}
+
+.equipment-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.equipment-icon {
+    width: 14px;
+    height: 12px;
+}
+
+.cost {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cost-value {
+    color: #1A212F;
+    font-size: 20px;
+}
+
+.reserve-btn {
+    display: flex;
+    background-color: #FF7236;
+    color: white;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 206px;
+    height: 50px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    transition:  0.3s ease;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.reserve-btn:hover {
+    transform: scale(1.05);
+}
+
+.reserve-text {
+    font-family: "LatoLight", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFEFD;
+    transition: color 0.3s;
+    margin-left: 20px;
+}
+
+.reserve-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+}
