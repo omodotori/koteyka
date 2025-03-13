@@ -6,20 +6,20 @@ export default defineConfig({
   plugins: [react()],
   base: "/",
 
-  esbuild: {
-    loader: "jsx",
-  },
+  // esbuild: {
+  //   loader: "jsx",
+  // },
 
-  resolve: {
-    alias: {
-      "./runtimeConfig": "./runtimeConfig.browser",
-    },
-  },
-  optimizeDeps: {
-    esbuildOptions: {
-      loader: {
-        ".js": "jsx",
-      }
-    }
-  }
+  // resolve: {
+  //   alias: {
+  //     "./runtimeConfig": "./runtimeConfig.browser",
+  //   },
+  // },
+  // optimizeDeps: {
+  //   esbuildOptions: {
+  //     loader: {
+  //       ".js": "jsx",
+  //     }
+  //   }
+  // }
 });
